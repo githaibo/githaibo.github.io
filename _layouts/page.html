@@ -33,9 +33,9 @@ layout: default
                 sidebar-container">
 
                 <!-- Featured Tags -->
-                <!--{% if site.featured-tags %}
+                {% if site.featured-tags %}
                 <section>
-                    &lt;!&ndash; no hr &ndash;&gt;
+                    <!-- no hr -->
                     <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
@@ -47,7 +47,7 @@ layout: default
         				{% endfor %}
         			</div>
                 </section>
-                {% endif %}-->
+                {% endif %}
 
                 <!-- Friends Blog -->
                 {% if site.friends %}
